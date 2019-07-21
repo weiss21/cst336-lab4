@@ -1,4 +1,5 @@
-html, body, footer {
+html,
+body {
   background-color: lightgray;
   width: 100%;
   height: 100%;
@@ -9,21 +10,38 @@ p {
   color: black;
 }
 
+nav,
 footer {
   text-align: center;
+}
+
+footer {
   text-color: black;
 }
 
-nav a {/* Take from lab 1 */
-    padding:15px;
-    padding-bottom:4px;
-    font-size: 1.8em;
-    text-decoration: none; /* removes underline */
-    color: blue;           
-  }
+nav a {
+  /* Take from lab 1 */
+  padding: 15px;
+  padding-bottom: 4px;
+  font-size: 1.8em;
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+  /* removes underline */
+  color: blue;
+}
 
-nav a:hover { /* pseudo class*/
-  border-bottom:2px gold solid;
+nav a:hover {
+  /* pseudo class*/
+  border-bottom: 2px gold solid;
   font-size: 2em;
-  transition: .9s; /*transition effect */
+  transition: .9s;
+  /*transition effect */
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000099;
+  font-size: 4em;
+  margin-bottom: 0px
 }

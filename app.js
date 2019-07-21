@@ -28,3 +28,11 @@ app.get("/venus", function(req, res) {
     res.render("venus.html");
 })
 
+app.get("/earth", function(req, res) {
+    res.render("earth.html");
+})
+
+app.get("/mars", function(req, res) {
+    res.render("mars.html");
+})
+
