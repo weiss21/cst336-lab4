@@ -3,7 +3,8 @@ const app = express(); //variable "app" to access methods.
 app.engine('html', require('ejs').renderFile);
 app.use(express.static("public"));
 
-
+var port = process.env.PORT || "8081"; //To work in both local (codeanywhere) and heroku
+var serial = process.env.IP || "0.0.0.0"; // same as comment above
 //server listener original example
 //app.listen("8081", "0.0.0.0", function(){
 //  console.log("Express Server is Running...")
@@ -11,7 +12,7 @@ app.use(express.static("public"));
 
 
  // Heroku update server listener
-app.listen(process.env.PORT, process.env.IP, function(){
+app.listen(port, serial, function(){
   console.log("Express Server is Running. . . ")
 });
 
