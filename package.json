@@ -1,7 +1,7 @@
 {
   "name": "cst336-lab4",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express website",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/weiss21/cst336-lab4.git"
   },
-  "author": "",
+  "author": "Wais or weiss21",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/weiss21/cst336-lab4/issues"
