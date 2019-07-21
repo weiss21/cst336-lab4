@@ -1,35 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8" name="viewport" content="initial-scale=1.0, user-scalable=no" />
-  <title>Mercury Site </title>
-  <style>
-    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
-  </style>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <h1> Mercury</h1>
-  </header>
+<% include partials/header.ejs %>
+  <h1> Mercury</h1>
   <br /><br />
 
-  <main>
-    <iframe src="https://solarsystem.nasa.gov/gltf_embed/2369" width="75%" height="450px" frameborder="0" />
-  
-  </main>
+  <iframe src="https://solarsystem.nasa.gov/gltf_embed/2369" width="75%" height="450px" frameborder="0" />
+  <p>
+    Published: April 22, 2019 A 3D model of Mercury, the innermost planet.</p>
+  <a href="https://solarsystem.nasa.gov/resources/2369/mercury-3d-model/">Source: NASA Visualization Technology Applications and Development (VTAD)</a>
 
-  <footer>
-    <p>
-      Published: April 22, 2019 A 3D model of Mercury, the innermost planet.</p>
-    <a href="https://solarsystem.nasa.gov/resources/2369/mercury-3d-model/">Source: NASA Visualization Technology Applications and Development (VTAD)</a>
 
-  </footer>
-
-</body>
-<!-- closing body -->
-
-</html>
+<% include partials/footer.ejs %>
