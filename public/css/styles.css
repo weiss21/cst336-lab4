@@ -23,18 +23,19 @@ nav a {
   /* Take from lab 1 */
   padding: 15px;
   padding-bottom: 4px;
-  font-size: 1.8em;
+  font-size: 3em;
   display: inline-block;
   list-style-type: none;
   text-decoration: none;
   /* removes underline */
-  color: blue;
+  color: black;
 }
 
 nav a:hover {
   /* pseudo class*/
   border-bottom: 2px gold solid;
   font-size: 2em;
+  background-color:lightgray;
   transition: .9s;
   /*transition effect */
 }
