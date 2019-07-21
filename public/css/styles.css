@@ -13,3 +13,17 @@ footer {
   text-align: center;
   text-color: black;
 }
+
+nav a {/* Take from lab 1 */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color: blue;           
+  }
+
+nav a:hover { /* pseudo class*/
+  border-bottom:2px gold solid;
+  font-size: 2em;
+  transition: .9s; /*transition effect */
+}
