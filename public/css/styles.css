@@ -10,33 +10,28 @@ p {
   color: black;
 }
 
-nav,
-footer {
-  text-align: center;
-}
-
 footer {
   text-color: black;
 }
 
 nav a {
   /* Take from lab 1 */
-  padding: 15px;
-  padding-bottom: 4px;
-  font-size: 3em;
+  padding: 15px;  !important
+  padding-bottom: 4px;  !important
+  font-size: 3em; !important
   display: inline-block;
   list-style-type: none;
   text-decoration: none;
   /* removes underline */
-  color: black;
+  text-color: black;  !important
 }
 
 nav a:hover {
   /* pseudo class*/
-  border-bottom: 2px gold solid;
+  border-bottom: 2px gold solid; !important
   font-size: 2em;
-  background-color:lightgray;
-  transition: .9s;
+  background-color:lightgray; !important
+  transition: .9s;  !important
   /*transition effect */
 }
 
