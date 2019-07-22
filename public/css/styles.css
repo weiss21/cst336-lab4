@@ -1,6 +1,12 @@
+/*Source of CSS from CST 336 Summer 2019 class. Previous Labs/HWs I did.
+W3 Schools. https://www.w3schools.com/
+The Bootstrap page that was linked to us. https://getbootstrap.com/docs/3.3/getting-started/
+And of course our Instructor and TA who are very helpful in this course!
+*/
+
 html,
 body {
-  background-color: lightgray;
+  background-color: white;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -28,7 +34,6 @@ nav a {
 
 nav a:hover {
   /* pseudo class*/
-  border-bottom: 2px gold solid; !important
   font-size: 2em;
   background-color:lightgray; !important
   transition: .9s;  !important
