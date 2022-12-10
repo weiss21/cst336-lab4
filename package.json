@@ -18,6 +18,6 @@
   "homepage": "https://github.com/weiss21/cst336-lab4#readme",
   "dependencies": {
     "ejs": "^2.6.2",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
